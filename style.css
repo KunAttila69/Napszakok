@@ -1,0 +1,29 @@
+body{
+    background: url(src/night.png);
+    background-size: cover;
+    background-position: 0% 35%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text-container{
+    color: white;
+    background: rgba(0, 0, 0, 0.56);
+    padding: .5rem 2rem;
+    width: 50%;
+    border-radius: 12.5px;
+    float: right;
+    & p{
+        font-size: 25px;
+    }
+    & .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & img{
+            height: 50px;
+        }
+        & h3{
+            font-size: 2.5rem;
+        }
+    }
+}
